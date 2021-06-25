@@ -59,10 +59,10 @@
          "required": true,
          "value": ""
      },      
-      "OWNER_ID": {
+      "DEL_CMDS": {
          "description": "Your user ID as an integer.",
-         "required": true,
-         "value": ""
+         "required": false,
+         "value": "True"
      },      
       "OWNER_USERNAME": {
          "description": "Your user ID as an integer.",
