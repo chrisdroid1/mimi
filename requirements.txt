@@ -1,3 +1,8 @@
+py-tgcalls
+python-dotenv
+requests
+
+aiofiles
 aiohttp>=2.2.5
 alphabet_detector
 beautifulsoup4
@@ -16,8 +21,17 @@ intellivoid-SPB
 markdown2
 multicolorcaptcha
 nltk
+youtube_search
+search_engine_parser
+ffmpeg
+python-arq
+future
+psutil
+wget
 pillow>=4.2.0
 psutil
+youtube_dl
+youtube_search_python
 psycopg2-binary
 pyYAML>=5.1.2
 pyrate-limiter
