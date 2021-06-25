@@ -45,7 +45,7 @@ class KigyoINIT:
         self.OWNER_USERNAME = self.parser.get('OWNER_USERNAME', None)
         self.APP_ID = self.parser.getint("APP_ID")
         self.UPDATES_CHANNEL = self.parser.getenv("UPDATES_CHANNEL", "DaisyXupdates")
-        BG_IMAGE = self.parser.getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
+        self.BG_IMAGE = self.parser.getenv("BG_IMAGE", "https://telegra.ph/file/dcfdf612e499eef0e0b1f.png")
         self.API_HASH = self.parser.get("API_HASH")
         self.WEBHOOK = self.parser.getboolean('WEBHOOK', False)
         self.URL = self.parser.get('URL', None)
