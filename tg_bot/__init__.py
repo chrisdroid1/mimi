@@ -48,6 +48,7 @@ class KigyoINIT:
         self.WEBHOOK = self.parser.getboolean('WEBHOOK', False)
         self.URL = self.parser.get('URL', None)
         self.CERT_PATH = self.parser.get('CERT_PATH', None)
+        self.SESSION_NAME = self.parser.getenv("SESSION_NAME", "session")
         self.PORT = self.parser.getint('PORT', None)
         self.INFOPIC = self.parser.getboolean('INFOPIC', False)
         self.DEL_CMDS = self.parser.getboolean("DEL_CMDS", False)
